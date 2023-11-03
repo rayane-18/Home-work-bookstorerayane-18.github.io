@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bookstore</title>
+  </head>
+  <body class="">
+    <div class="navbar">
+      <img src="images/logo.svg" alt="" class="logo" />
+      <div class="links">
+        <div class="link">
+          <div class="menu">
+            <a href="#products">Products</a>
+          </div>
+        </div>
+        <div class="link">
+          <div class="menu">
+            <a href="#About">About</a>
+          </div>
+        </div>
+        <div class="link">
+          <div class="menu">
+            <a href="#footer">Contact us</a>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <button class="shopping">
+          <span class="quantity">0</span>
+          <img src="Images/cart.svg" alt="" />Cart
+        </button>
+      </div>
+    </div>
+
+    <div class="header">
+      <h1>50% OFF the first volume of harry potter !!</h1>
+      <p>perfect gift for a friend</p>
+      <div class="header-buttons">
+        <div>
+          <div class="prices">
+            <p>$60</p>
+            <span>$30</span>
+          </div>
+        </div>
+
+        <button onclick="addToCard(6)">Add To Card</button>
+        <button onclick="window.location.href='#Learn-more';">
+          Learn More
+        </button>
+      </div>
+    </div>
+    <div class="products" id="products">
+      <h1 class="product-title">Products</h1>
+      <div class="list"></div>
+    </div>
+    <div class="card">
+      <h1>Card</h1>
+      <ul class="listCard"></ul>
+      <div class="checkOut">
+        <div class="total">0</div>
+        <div class="closeShopping">Close</div>
+      </div>
+
+      <script src="app.js"></script>
+    </div>
+    <div class="Promo" id="Learn-more">
+      <h1>Harry potter the best selling fantasy story since release</h1>
+      <div class="content">
+        <div class="left">
+          <div class="card-1">
+            <h2>on the promo</h2>
+            <p>
+              This free sale aims to lower the barrier of entry to this ammazing
+              series wether you are new to harry potter or a seasoned fan of the
+              movies looking to have a better understanding of the wondrfull
+              wizzarding world of harry potter
+            </p>
+          </div>
+        </div>
+        <div class="img-container">
+          <img src="images/harry_potter.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="state">
+      <div class="left">
+        <img src="images/OldTownBooks.jpg" alt="" />
+      </div>
+
+      <div class="right" id="About">
+        <h1>About us</h1>
+        <p>
+          we are a online bookstore with a varied sellection and offer books
+          both in physical or digital versions we garanty that you will receave
+          the book within 3 days we also offer book rentals
+        </p>
+      </div>
+    </div>
+
+    <div class="footer" id="footer">
+      <img src="images/logo.svg" alt="" />
+      <div class="f-card">
+        <h3>Contact :</h3>
+        <p>555-eee-444</p>
+        <p>rayane@gmail.com</p>
+      </div>
+      <div class="f-card">
+        <h3>Socials</h3>
+        <p>facebook : Rayane-bookstore</p>
+        <p>instagram : Rayane-bookstore</p>
+        <p>twitter : Rayane-bookstore</p>
+      </div>
+    </div>
+  </body>
+</html>
